@@ -74,7 +74,7 @@
 // Power Supply Control
 //
 #ifndef PS_ON_PIN
-  // #define PS_ON_PIN                        P1_21
+  #define PS_ON_PIN                        P1_21
 #endif
 
 // LED driving pin
@@ -177,7 +177,7 @@
 #define HEATER_0_PIN                       P2_03  // EXTRUDER 0
 #define HEATER_1_PIN                       P2_04  // EXTRUDER 1
 #define HEATER_BED_PIN                     P2_05  // BED
-#define FAN_PIN                            P2_01
+// #define FAN_PIN                            P2_01
 #define FAN1_PIN                           P2_02
 
 #ifndef CONTROLLER_FAN_PIN
@@ -188,7 +188,7 @@
 //Spindle/Laser
 //
 // #define SPINDLE_LASER_PWM_PIN FAN_PIN
-#define SPINDLE_LASER_ENA_PIN             P1_21  //Spindle ENABLE pin taken from PSU_pin
+#define SPINDLE_LASER_ENA_PIN             P2_01  //Spindle ENABLE pin taken from FAN_PIN
 
 /**
  *                  ------
