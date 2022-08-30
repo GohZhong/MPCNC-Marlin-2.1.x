@@ -109,8 +109,12 @@
  *
  * :[-1, 0, 1, 2, 3, 4, 5, 6, 7]
  */
-#define SERIAL_PORT -1
-#define Serial_PORT 0
+
+// Original without display
+// #define SERIAL_PORT -1
+// #define Serial_PORT 0
+
+#define SERIAL_PORT 0
 
 /**
  * Serial Port Baud Rate
@@ -131,8 +135,9 @@
  * Currently Ethernet (-2) is only supported on Teensy 4.1 boards.
  * :[-2, -1, 0, 1, 2, 3, 4, 5, 6, 7]
  */
-#define SERIAL_PORT_2 0
-//#define BAUDRATE_2 250000   // Enable to override BAUDRATE
+// #define SERIAL_PORT_2 0 //Original
+#define SERIAL_PORT_2 -1
+#define BAUDRATE_2 115200   // Enable to override BAUDRATE
 
 /**
  * Select a third serial port on the board to use for communication with the host.
