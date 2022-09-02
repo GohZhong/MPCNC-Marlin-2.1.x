@@ -137,7 +137,7 @@
  */
 // #define SERIAL_PORT_2 0 //Original
 #define SERIAL_PORT_2 -1
-#define BAUDRATE_2 115200   // Enable to override BAUDRATE
+// #define BAUDRATE_2 115200   // Enable to override BAUDRATE
 
 /**
  * Select a third serial port on the board to use for communication with the host.
